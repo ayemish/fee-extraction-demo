@@ -8,8 +8,6 @@ data/*.sqlite
 data/*.sqlite3
 
 # Environment files
-.env
-.env.*
 
 # Test and tooling caches
 .pytest_cache/
@@ -20,8 +18,9 @@ htmlcov/
 
 # Editor and OS files
 .DS_Store
-.vscode/
 .idea/
 
 # Local agent/editor metadata
 .claude/
+config.bat
+node_modules
